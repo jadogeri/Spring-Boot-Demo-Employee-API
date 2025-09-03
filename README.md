@@ -1,31 +1,22 @@
 ## **Glossy Textured Contact Form**
 
 **Version:** 1.1
-**Date:** August 21, 2025
+**Date:** September 3, 2025
 
 ---
 
 ## Description
 
-This is a frontend Application temnplate (typescript) utilizing library react hook form for validating inputs.
+This is a backend Application temnplate (java) performing CRUD operations.
 
 ## Authors
 
 [@jadogeri](https://www.github.com/jadogeri)
 
-## Acknowledgements
-
-Design and template by [W3Layouts](https://w3layouts.com/)
 
 ## Project Template
 
-[Glossy Textured Contact Form Responsive Widget Template](https://w3layouts.com/glossy-textured-contact-form-responsive-widget-template/)
-
 ## Deployment
-
-Application is deployed in Github (Github Pages)
-
- [https://jadogeri.github.io/Glossy_Textured_Contact_Form/](https://jadogeri.github.io/Glossy_Textured_Contact_Form/)
 
 ## Repository
 
