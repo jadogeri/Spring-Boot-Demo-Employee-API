@@ -1,4 +1,4 @@
-## **Express DI API**
+## **Spring-Boot-Demo-Employee-API**
 
 **Version:** 1.10.0 </br>
 **Date:** December 17, 2025
@@ -58,18 +58,25 @@ This document outlines the components, and design considerations for functionali
 
 ## **2. Installation**
 
-* [Download and install NodeJS](https://nodejs.org/en/download)
+* [Download and install IntelliJ Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
+* [Download and install Java](https://www.oracle.com/java/technologies/downloads/)
+* [Download and install Maven](https://maven.apache.org/download.cgi)
+* [Download and install Docker - Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
+* [Download and install Docker - Mac](https://docs.docker.com/desktop/setup/install/mac-install/)
 
 ---
 
 ## **3. Usage**
 
-**Prerequisites** :installation of NodeJS.
+**Prerequisites** :installation of Java and Maven.
 
 ### **3.1 Run Application**
-0 Open IntelliJ IDE
 
-1 Open terminal.
+#### **3.1.1 Run Locally**
+
+0 open intelliJ IDE.
+
+1 Open terminal by clicking `Terminal` or `Alt + F12` command.
 
 2 Type command git clone https://github.com/jadogeri/Spring-Boot-Demo-Employee-API.git then press enter.
 
@@ -83,15 +90,19 @@ This document outlines the components, and design considerations for functionali
   cd Spring-Boot-Demo-Employee-API
 ```
 
-#### **3.1.1 Run Locally**
+3 Change view to `Project`.
 
-0 Click on Maven icon on the side of ide
+4 Navigate to factory --> `src` --> `main` -- `java`.
 
-1 Navigate to demo --> LifeCycle directory
+5 Inspect file `DemoApplication.java`.
 
-2 Double click in order: `clean`, `compile` then `install`.
+6 Click on Maven icon on the side of ide
 
+7 Navigate to `demo` --> `LifeCycle` directory
 
+8 Double click in order: `clean`, `compile` then `install`.
+
+9 Press play button to start application in `DemoApplication.java` or play button at top tab of IDE.
 
 #### 4 API Documentation ####
 
@@ -109,6 +120,8 @@ Note: Assuming port is `8080`
 ## **5. References**
 * AweSome Open Source : [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 * Readme.so : [The easiest way to create a README](https://readme.so/)
+* Symflower : [Symflower feature overview](https://www.youtube.com/watch?v=17KKqlLNcTc).
+* Medium : [Handling exceptions and error responses ](https://leejjon.medium.com/handling-exceptions-and-error-responses-in-java-rest-services-afda273c9d2f)
 
 
 
