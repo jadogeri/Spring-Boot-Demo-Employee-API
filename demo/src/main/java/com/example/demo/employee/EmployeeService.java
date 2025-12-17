@@ -67,6 +67,11 @@ public class EmployeeService {
             employee.setEmail(email);
         }
     }
+
+    public Employee getEmployee(Long employeeId) {
+        return employeeRepository.findById(employeeId)
+                .orElseThrow(() -> new EmployeeNotFoundException("Employee not found with id: " + employeeId));
+    }
 }
 
 

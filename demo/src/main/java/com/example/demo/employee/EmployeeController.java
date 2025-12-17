@@ -1,6 +1,7 @@
 package com.example.demo.employee;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
@@ -19,6 +20,14 @@ public class EmployeeController {
     @GetMapping
     public List<Employee> getEmployees() {
         return employeeService.getEmployees();
+    }
+
+    @GetMapping(path = "{employeeId}")
+    public ResponseEntity<Employee> getEmployee(@PathVariable("employeeId") Long employeeId) {
+        System.out.println("employee id is = " + employeeId);
+        Employee employee = employeeService.getEmployee(employeeId);
+        return ResponseEntity.ok(employee); // Returns the employee with HTTP 200 OK
+
     }
     @PostMapping
     public void registerNewEmployee(@RequestBody Employee employee) {
