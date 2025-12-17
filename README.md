@@ -90,21 +90,21 @@ This document outlines the components, and design considerations for functionali
   cd Spring-Boot-Demo-Employee-API
 ```
 
-3 Change view to `Project`.
+4 Change view to `Project`.
 
-4 Navigate to factory --> `src` --> `main` -- `java`.
+5 Navigate to factory --> `src` --> `main` -- `java`.
 
-5 Inspect file `DemoApplication.java`.
+6 Inspect file `DemoApplication.java`.
 
-6 Click on Maven icon on the side of ide
+7 Click on Maven icon on the side of ide
 
-7 Navigate to `demo` --> `LifeCycle` directory
+8 Navigate to `demo` --> `LifeCycle` directory
 
-8 Double click in order: `clean`, `compile` then `install`.
+9 Double click in order: `clean`, `compile` then `install`.
 
-9 Press play button to start application in `DemoApplication.java` or play button at top tab of IDE.
+10 Press play button to start application in `DemoApplication.java` or play button at top tab of IDE.
 
-#### 4 API Documentation ####
+## **4 API Documentation** ##
 
 Note: Assuming port is `8080`
 
