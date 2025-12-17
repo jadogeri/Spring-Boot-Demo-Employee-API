@@ -97,13 +97,13 @@ This document outlines the components, and design considerations for functionali
 
 Note: Assuming port is `8080`
 
-| Method        | Description    | Endpoint                                        | Body      | Param       |
-| ----------- | ------ | -------------------------------------------------- | ------------------------ |------------------------ |
-| `GET`       | Returns all users | `http:localhost:4000/users/` | none       |   none          |             
-| `GET` | Return single user | `http:localhost:4000/users/:id` | none  |  id e.g `69228e6b8f9f98a7327b2d7a` |   
-| `POST`   | Creates a user | `http:localhost:4000/users/` | e.g `{"username": "john doe", "email":"johndoe@gmail.com"}`    | none |                      
-| `PUT`| Updates a user | `http:localhost:4000/users/:id` | e.g `{"username": "john doe", "email":"johndoe@gmail.com"}` |  id e.g `69228e6b8f9f98a7327b2d7c`    |  
-| `DELETE`| Removes a user |`http:localhost:4000/users/:id`  | none  | id e.g `69228e6b8f9f98a7327b2d7b`    |     
+| Method        | Description            | Endpoint                                        | Body      | Param      |
+| ----------- |------------------------| -------------------------------------------------- | ------------------------ |------------|
+| `GET`       | Returns all employees  | `http://localhost:8080/api/v1/employee/` | none       | none       |             
+| `GET` | Return single employee | `http://localhost:8080/api/v1/employee/:id` | none  | id e.g `1` |   
+| `POST`   | Creates an employee            | `http://localhost:8080/api/v1/employee/` | e.g `{"firstName": "Jack", "lastName": "Dawson", "age": 20,"dob": "1900-08-05", "email": "jdawson@aol.com"}`  | none    |                      
+| `PUT`| Updates an employee    | `http://localhost:8080/api/v1/employee/:id` | e.g ` {"email": "eri@aol.com","lastName":"ado", }` | id e.g `1` |  
+| `DELETE`| Removes an employee    |`http://localhost:8080/api/v1/employee/:id`  | none  | id e.g `1` |     
 
 
 ## **5. References**
