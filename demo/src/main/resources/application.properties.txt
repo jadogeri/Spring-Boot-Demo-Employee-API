@@ -1,7 +1,7 @@
 spring.application.name=demo
-spring.datasource.url= yor db connection
-spring.datasource.username= your username
-spring.datasource.password= your password
+spring.datasource.url= yor db connection e.g jdbc:postgresql://localhost:5432/employee
+spring.datasource.username= your username e.g postgres
+spring.datasource.password= your password e.g password
 spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.show-sql=true
 #spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
