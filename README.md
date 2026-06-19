@@ -54,7 +54,7 @@ Note: use file application.properties.txt as template (or rename to application.
 
 ### **1.1 Purpose**
 
-This document outlines the components, and design considerations for functionality to spring boot application.
+This document outlines the components and design considerations for adding functionality to a Spring Boot application.
 
 ## **2. Installation**
 
@@ -68,23 +68,23 @@ This document outlines the components, and design considerations for functionali
 
 ## **3. Usage**
 
-**Prerequisites** :installation of Java and Maven.
+**Prerequisites** : Installation of Java and Maven.
 
 ### **3.1 Run Application**
 
 #### **3.1.1 Run Locally**
 
-0 open intelliJ IDE.
+0 open IntelliJ IDE.
 
 1 Open terminal by clicking `Terminal` or `Alt + F12` command.
 
-2 Type command git clone https://github.com/jadogeri/Spring-Boot-Demo-Employee-API.git then press enter.
+2 Type command `git clone https://github.com/jadogeri/Spring-Boot-Demo-Employee-API.git` then press enter.
 
 ```bash
   git clone https://github.com/jadogeri/Spring-Boot-Demo-Employee-API.git
 ```
 
-3 Enter command cd Spring-Boot-Demo-Employee-API then press enter.
+3 Enter command `cd Spring-Boot-Demo-Employee-API` then press enter.
 
 ```bash
   cd Spring-Boot-Demo-Employee-API
